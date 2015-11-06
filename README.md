@@ -6,11 +6,9 @@ a JavaScript library that aims to make coding accessible for artists, designers,
 
 ## setup
 
-1. navigate to 
-(the p5js website)[http://www.p5js.org]
+1. navigate to [the p5js website](http://www.p5js.org)
 2. download the complete library on the download tab
-3. we also need a text editor! so, head over to 
-(sublime)[http://www.sublimetext.com/2] and download the appropriate version for your operating system
+3. we also need a text editor! so, head over to [sublime](http://www.sublimetext.com/2) and download the appropriate version for your operating system
 4. open it in your browser (nothing should appear at first)
 
 ## What's going on here?!?! 
