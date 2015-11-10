@@ -1,22 +1,66 @@
-var r, g, b;
+var x; // declare x
+
+var clicked;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  background(89, 89, 89);
-  frameRate(10);
+ //coding!
+ createCanvas(windowWidth, windowHeight);
+ background(0, 0, 255); // r, g, b
+ x = 0; // initiate to zero
+ clicked = false;
 }
 
 function draw() {
+  background(0, 0, 255); 
   noStroke();
-  background(89, 89, 89, 20);
+
+  // create the ground
+  rectMode(CENTER);
+  fill(125, 0, 88, 20);
+  rect(width/2, height - 10, width, 50);
+
+  // add arms
+  fill(0, 9, 125);
+  rectMode(CENTER);
+  rect(width/2, height/2 + 100, 300, 10);
+
+
+  // add single ball
+  ellipseMode(CENTER);
+  fill(255);
+
+
+  // add 3 circles to be the body
+  fill(0);
+  ellipse(width/2, height/2, 100, 100);
+  fill(255);
+  ellipse(width/2, height/2 + 100, 150, 150);
+  fill(0);
+  ellipse(width/2, height/2 + 250, 250, 250);
+
+  // create snowball!
+  fill(255);
+  ellipse(mouseX, mouseY, 20, 20);
+  // update x plus one
+  x = x + 5;
+
   fill(random(255), random(255), random(255));
-  rect(random(0, width), random(0, height), random(0, 200), random(0, 200));
-  fill(random(255), random(255), random(255));
-  rect(random(0, width), random(0, height), random(0, 200), random(0, 200));
+  ellipse(random(width), random(height), 15, 15);
+
+  if (clicked) {
+    textAlign(CENTER);
+    textSize(32);
+    text("hello world!", width/2, 100);
+  }
+
 }
 
 function mouseClicked() {
-  fill(0);
-  textSize(100);
-  text("?", mouseX-30, mouseY);
+  // if (clicked) {
+  //   clicked = false;
+  // } else {
+  //   clicked = true;
+  // }
+
+  clicked = !clicked;
 }
