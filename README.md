@@ -1,5 +1,7 @@
 # hack-week-p5-fall-2015
 
+## (REGISTER FOR THE HACKATHON HERE!)[5chackathon.com]
+
 # p5js 
 
 a JavaScript library that aims to make coding accessible for artists, designers, educators, and beginners, and reinterprets this for today's web.
@@ -24,7 +26,7 @@ a JavaScript library that aims to make coding accessible for artists, designers,
 **we will cover**
   * basic structure (setup() & draw())
   * shapes
-  * colors
+  * (colors)[http://www.dematte.at/colorPicker/]
   * variables
   * random() function
   * text
@@ -32,4 +34,6 @@ a JavaScript library that aims to make coding accessible for artists, designers,
 
 ## LAB 
 ### create a scene -- you have half an hour and then we will walk around and share!
-feel free to use other methods and things that you can find in the documentation online.
+feel free to use other methods and things that you can find in the documentation online
+
+more questions? feel free to contact me at maya.man@pomona.edu
