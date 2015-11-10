@@ -1,6 +1,6 @@
 # hack-week-p5-fall-2015
 
-## (REGISTER FOR THE HACKATHON HERE!)[5chackathon.com]
+## [REGISTER FOR THE HACKATHON HERE!](5chackathon.com)
 
 # p5js 
 
@@ -24,7 +24,7 @@ a JavaScript library that aims to make coding accessible for artists, designers,
 **we will cover**
   * basic structure (setup() & draw())
   * shapes
-  * (colors)[http://www.dematte.at/colorPicker/]
+  * [colors](http://www.dematte.at/colorPicker/)
   * variables
   * random() function
   * text
